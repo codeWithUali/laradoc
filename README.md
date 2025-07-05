@@ -1,6 +1,6 @@
 # Laradoc - Intelligent Laravel Documentation Generator
 
-> **Visit our website**: [https://laradoc.com](https://laradoc.com)
+> **Visit our website**: [https://umair.lu/community/laradoc](https://umair.lu/community/laradoc)
 
 Laradoc is an intelligent Laravel documentation generator that automatically analyzes your Laravel project and generates comprehensive documentation using AI-powered insights. Save hours of manual work and keep your documentation always up-to-date.
 
@@ -20,7 +20,7 @@ Laradoc is an intelligent Laravel documentation generator that automatically ana
 ### Installation
 
 ```bash
-composer require laradoc/laradoc
+composer require codewithuali/laradoc
 ```
 
 ### Publish Configuration
@@ -68,7 +68,7 @@ Visit `/laradoc` in your browser to access the documentation interface.
 
 ## 📖 Documentation
 
-For detailed documentation, visit our website: [https://laradoc.com/docs](https://laradoc.com/docs)
+For detailed documentation, visit our website: [https://umair.lu/community/laradoc/docs](https://umair.lu/community/laradoc/docs)
 
 ### What Gets Documented
 
@@ -148,7 +148,7 @@ Visit our official website for:
 - **📞 Contact**: Get support and ask questions
 - **🎯 Use Cases**: See how others are using Laradoc
 
-**Website**: [https://laradoc.com](https://laradoc.com)
+**Website**: [https://umair.lu/community/laradoc](https://umair.lu/community/laradoc)
 
 ## 🔧 Commands
 
@@ -199,24 +199,22 @@ public function boot()
     Laradoc::addModule('custom', [
         'name' => 'Custom Module',
         'description' => 'Your custom documentation module',
-        'analyzer' => CustomAnalyzer::class,
-        'generator' => CustomGenerator::class,
+        'icon' => 'fas fa-cog',
+        'route' => 'laradoc.custom',
     ]);
 }
 ```
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guide](https://github.com/laradoc/laradoc/blob/main/CONTRIBUTING.md) for details.
+We welcome contributions! Please see our [Contributing Guide](https://github.com/codewithuali/laradoc/blob/main/CONTRIBUTING.md) for details.
 
 ### Development Setup
 
 ```bash
-git clone https://github.com/laradoc/laradoc.git
+git clone https://github.com/codewithuali/laradoc.git
 cd laradoc
 composer install
-npm install
-npm run dev
 ```
 
 ### Running Tests
@@ -227,7 +225,7 @@ composer test
 
 ## 📄 License
 
-Laradoc is open-sourced software licensed under the [MIT license](https://github.com/laradoc/laradoc/blob/main/LICENSE).
+Laradoc is open-sourced software licensed under the [MIT license](https://github.com/codewithuali/laradoc/blob/main/LICENSE).
 
 ## 🙏 Acknowledgments
 
@@ -239,17 +237,16 @@ Laradoc is open-sourced software licensed under the [MIT license](https://github
 - [Bootstrap](https://getbootstrap.com) - For the beautiful UI
 - [Livewire](https://laravel-livewire.com) - For reactive components
 
-## 📞 Support
+## 🔗 Links
 
-- **Website**: [https://laradoc.com](https://laradoc.com)
-- **Documentation**: [https://laradoc.com/docs](https://laradoc.com/docs)
-- **GitHub Issues**: [https://github.com/laradoc/laradoc/issues](https://github.com/laradoc/laradoc/issues)
+- **Website**: [https://umair.lu/community/laradoc](https://umair.lu/community/laradoc)
+- **Documentation**: [https://umair.lu/community/laradoc/docs](https://umair.lu/community/laradoc/docs)
+- **GitHub Issues**: [https://github.com/codewithuali/laradoc/issues](https://github.com/codewithuali/laradoc/issues)
 - **Discord**: [https://discord.gg/laradoc](https://discord.gg/laradoc)
-- **Email**: support@laradoc.com
 
-## ⭐ Star History
+## 📊 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=laradoc/laradoc&type=Date)](https://star-history.com/#laradoc/laradoc&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=codewithuali/laradoc&type=Date)](https://star-history.com/#codewithuali/laradoc&Date)
 
 ---
 
