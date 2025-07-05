@@ -1,12 +1,12 @@
 {
-    "name": "laradoc/laradoc",
+    "name": "codewithuali/laradoc",
     "description": "Intelligent Laravel project documentation generator with AI-powered chatbot",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Laradoc Team",
-            "email": "support@laradoc.com"
+            "name": "Umair Ali",
+            "email": "uali@mixvoip.com"
         }
     ],
     "require": {
