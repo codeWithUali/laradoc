@@ -2,6 +2,39 @@
 
 > **Visit our website**: [https://umair.lu/community/laradoc](https://umair.lu/community/laradoc)
 
+---
+
+## 📦 Packagist & Meta
+
+- **Package Name:** `codewithuali/laradoc`
+- **Packagist:** [https://packagist.org/packages/codewithuali/laradoc](https://packagist.org/packages/codewithuali/laradoc)
+- **Latest Version:** 1.0.0
+- **Initial Release Date:** 2024-01-01
+- **License:** MIT
+- **Author:** Umair Ali ([me@umair.lu](mailto:me@umair.lu))
+
+## 🛠️ Tech Stack
+
+- **Language:** PHP ^8.1
+- **Framework:** Laravel ^9.0|^10.0|^11.0
+- **Key Dependencies:**
+  - guzzlehttp/guzzle ^7.0
+  - symfony/console ^6.0
+  - symfony/finder ^6.0
+  - league/commonmark ^2.0
+  - meilisearch/meilisearch-php ^0.35.0
+  - spatie/laravel-permission ^5.0
+  - livewire/livewire ^2.0
+- **Dev Dependencies:**
+  - orchestra/testbench ^7.0|^8.0
+  - phpunit/phpunit ^9.0|^10.0
+
+---
+
+# Laradoc - Intelligent Laravel Documentation Generator
+
+> **Visit our website**: [https://umair.lu/community/laradoc](https://umair.lu/community/laradoc)
+
 Laradoc is an intelligent Laravel documentation generator that automatically analyzes your Laravel project and generates comprehensive documentation using AI-powered insights. Save hours of manual work and keep your documentation always up-to-date.
 
 ## 🌟 Features
