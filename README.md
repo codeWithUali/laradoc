@@ -1,10 +1,5 @@
 # Laradoc - Intelligent Laravel Documentation Generator
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/laradoc/laradoc.svg)](https://packagist.org/packages/laradoc/laradoc)
-[![Total Downloads](https://img.shields.io/packagist/dt/laradoc/laradoc.svg)](https://packagist.org/packages/laradoc/laradoc)
-[![License](https://img.shields.io/packagist/l/laradoc/laradoc.svg)](https://github.com/laradoc/laradoc/blob/main/LICENSE)
-[![PHP Version](https://img.shields.io/packagist/php-v/laradoc/laradoc.svg)](https://packagist.org/packages/laradoc/laradoc)
-
 > **Visit our website**: [https://laradoc.com](https://laradoc.com)
 
 Laradoc is an intelligent Laravel documentation generator that automatically analyzes your Laravel project and generates comprehensive documentation using AI-powered insights. Save hours of manual work and keep your documentation always up-to-date.
